@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:  sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/736x/d2/c9/f9/d2c9f9c61b1bfe3935daab0ac718d3be.jpg);
+}
+
+.heading h1{
+    color: green;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:65px auto;
+}
+.water-content{
+    flex:1;
+    width:600px;
+    margin: 0px 25px;
+}
+.water-content p{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: darkblue;
+}
+.water-content h2{
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 25px;
+}
